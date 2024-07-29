@@ -3,7 +3,7 @@ However, if the exported unused function is placed in a file, where all exports 
 
 This is somewhat contradictory and perhaps presents an inconsistency in knip modifiers
 
-This repository is a reproduction for (link TBD)
+This repository is a reproduction for https://github.com/webpro-nl/knip/issues/742
 
 We have three files here:
 * `src/unused-files.js` is a file where all exports are unused, and one of them is marked with `/** @public */` JSDoc modifier

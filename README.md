@@ -1,5 +1,5 @@
-Knip @public modifier, if placed above an exported function, promises to make Knip not count this export as unused (even if it is)
-However, if the exported unused function is placed in a file, where all exports are unused, @public modifier seems to have no effect
+Knip `@public` modifier, if placed above an exported function, promises to make Knip not count this export as unused (even if it is)
+However, if the exported unused function is placed in a file, where all exports are unused, `@public` modifier seems to have no effect
 
 This is somewhat contradictory and perhaps presents an inconsistency in knip modifiers
 

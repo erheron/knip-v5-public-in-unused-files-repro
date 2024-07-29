@@ -8,7 +8,6 @@
 				"src/main.js",
 			],
 			"project": ["src/**/*.js"],
-            "ignore": ["src/unused-file.js"]
 		}
 	},
 	"include": ["exports", "types", "duplicates", "files"],

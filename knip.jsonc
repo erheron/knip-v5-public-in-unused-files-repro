@@ -1,0 +1,22 @@
+{
+	"$schema": "https://unpkg.com/knip@2.30/schema.json",
+	"ignoreDependencies": ["node_modules/*"],
+	"ignoreExportsUsedInFile": false,
+	"workspaces": {
+		".": {
+			"entry": [
+				"src/main.js",
+			],
+			"project": ["src/**/*.js"],
+            "ignore": ["src/unused-file.js"]
+		}
+	},
+	"include": ["exports", "types", "duplicates", "files"],
+	"exclude": [
+		"dependencies",
+		"nsExports", // this is weaker than "exports", and "exports" is included
+		"nsTypes", // this is weaker than "types", and "types" is included
+		"enumMembers",
+		"classMembers"
+	]
+}

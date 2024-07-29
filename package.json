@@ -1,0 +1,10 @@
+{
+  "name": "knip-public-in-unused-files-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "knip": "^5.27.0",
+    "typescript": "^5.5.4"
+  }
+}
